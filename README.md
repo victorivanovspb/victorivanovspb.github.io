@@ -1,17 +1,4 @@
-<table>
-<tbody>
-<tr>
-	<td><a href="https://victorivanovspb.github.io/">GitHub Pages</a></td>
-	<td><a href="https://github.com/victorivanovspb/victorivanovspb.github.io/">Repo</a></td>
-</tr>
-</tbody>
-</table>
+Repo: <a href="https://github.com/victorivanovspb/victorivanovspb.github.io/">https://github.com/victorivanovspb/victorivanovspb.github.io</a>
 
-## Проекты
-<ul>
-	<li>
-		<a href="https://victorivanovspb.github.io/aframe-school-ru">Школа A-Frame</a> (интерактивный курс по WebVR на русском языке)
-	</li>
-</ul>
-
-## Страницы
+### Проекты
+* <a href="https://victorivanovspb.github.io/aframe-school-ru">Школа A-Frame</a> (интерактивный курс по WebVR на русском языке)
