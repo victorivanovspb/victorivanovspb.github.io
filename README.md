@@ -1,4 +1,10 @@
-<a href="https://github.com/victorivanovspb/victorivanovspb.github.io/">https://github.com/victorivanovspb/victorivanovspb.github.io</a>
+```
+ _    _ _____ _     _____ ________  ___ _____ 
+| |  | |  ___| |   /  __ \  _  |  \/  ||  ___|
+| |  | | |__ | |   | /  \/ | | | .  . || |__  
+| |/\| |  __|| |   | |   | | | | |\/| ||  __| 
+\  /\  / |___| |___| \__/\ \_/ / |  | || |___ 
+ \/  \/\____/\_____/\____/\___/\_|  |_/\____/ 
+```
 
-### Проекты
-* <a href="https://victorivanovspb.github.io/aframe-school-ru">Школа A-Frame</a> (интерактивный курс по WebVR на русском языке)
+* <a href="https://victorivanovspb.github.io/aframe-school-ru">Школа A-Frame</a> — интерактивный курс по WebVR на русском языке.
