@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle, transparent 20%, #f8f9ef 20%, #f8f9ef 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #f8f9ef 20%, #f8f9ef 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#eee 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #eee 2px, #f8f9ef 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+/* Main Page Layout */
+
+#main-content {
+  margin: 225px 425px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+/* Portfolio Header */
+
+#portfolio-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 40px;
+  align-items: baseline;
+}
+
+#portfolio-header-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-basis: 25%;
+}
+
+.portfolio-header-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#portfolio-header-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  flex-basis: 50%;
+}
+
+.header-text {
+  position: relative;
+  border-radius: 20px;
+}
+
+.header-text .body-text {
+  margin-top: 0.5em;
+  font-size: 1.1em;
+  font-family: "Press Start 2P", system-ui;
+}
+@media only screen and (max-width: 800px) {
+  .header-text .body-text {
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+}
+
+.border-wrap {
+  position: relative;
+  background: linear-gradient(to right, #ffbe7b, #379893);
+  padding: 2px;
+  border-radius: 50%;
+  max-width: 200px;
+}
+@media only screen and (max-width: 800px) {
+  .border-wrap {
+    width: 45%
+  }
+}
+@media only screen and (max-width: 500px) {
+  .border-wrap {
+    width: 65%
+  }
+}
+@media only screen and (max-width: 300px) {
+  .border-wrap {
+    width: 90%
+  }
+}
+
+/* About Section */
+
+#about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 900px;
+}
+
+#about-section .body-text {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 800px) {
+  #about-section .body-text {
+    font-size: 1.3em;
+  }
+}
+
+.about-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+/* Custom Projects Section */
+
+#custom-projects-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 900px;
+}
+
+#custom-projects-section .body-text {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 800px) {
+  #custom-projects-section .body-text {
+    font-size: 1.3em;
+  }
+}
+
+.custom-projects-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+/*
+  Social Network Links Section
+  & Github Repos Section
+*/
+
+#social-network-section,
+#github-repos-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#social-network-section .content,
+#github-repos-section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+#social-network-section .body-text,
+#github-repos-section .body-text {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 800px) {
+  #social-network-section .body-text,
+  #github-repos-section .body-text {
+    font-size: 1.3em;
+  }
+}
+
+/* Project Section */
+
+#my-work-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.projects-container {
+  display: flex;
+  gap: 34px 16px;
+  flex-wrap: wrap;
+}
+
+/* Project Cards */
+
+.project-card {
+  max-width: calc((100% - 32px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.project-card-text-container {
+  flex-direction: column;
+  display: flex;
+  gap: 16px
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Project Pages */
+
+#project-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-header-image {
+  width: 100%;
+  height: auto;
+}
+
+#project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-details-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+/* Custom Projects Section */
+
+#experience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 900px;
+}
+
+#experience-section .body-text {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 800px) {
+  #experience-section .body-text {
+    font-size: 1.3em;
+  }
+}
+
+#experience-section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+#experience-section .company {
+  margin-bottom: 1em; 
+}
+#experience-section .company .company-title .name {
+  font-weight: 900;
+}
+
+/* Project Gallery */
+
+#project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px 16px;
+}
+
+.gallery-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery-image-container.half-width {
+  width: calc((100% - 16px) / 2);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+@media only print {
+  #main-content {
+    margin: 40px;
+  }
+}
+
+/* Extra Extra large devices (large laptops and desktops, 1200px and below) */
+@media only screen and (max-width: 1600px) {
+  #main-content {
+    margin: 225px 275px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+  #main-content {
+    margin: 225px 175px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1000px and below) */
+@media only screen and (max-width: 1000px) {
+  #main-content {
+    margin: 225px 75px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 800px and below) */
+@media only screen and (max-width: 800px) {
+  #main-content {
+    margin: 150px 50px;
+  }
+
+  #portfolio-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolio-header-text-container .header-text {
+    text-align: center;
+  }
+
+  .project-card {
+    max-width: calc((100% - 16px) / 2);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+  #main-content {
+    margin: 125px 20px;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+}
+
+.table-skills .name {
+  width: 150px;
+  font-weight: bold;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.table-skills .description {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #000;
+}
+.table-skills tr:last-child .description {
+  border-bottom: none;
+}
